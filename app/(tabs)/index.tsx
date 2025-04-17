@@ -7,10 +7,10 @@ const Header = () => {
   return (
     <View style = {headerstyle.outer}>
       <View style = {headerstyle.container}>
-        <Image source = {require('../assets/images/iconp.png')} style = {{width: 50, height: 50}} />
+        <Image source = {require('../../assets/images/iconp.png')} style = {{width: 50, height: 50}} />
         <Title name = 'Shreeya'/>
       </View>
-      <Image source = {require('../assets/images/favicon.png')} style = {{width: 30, height: 30}} />
+      <Image source = {require('../../assets/images/iconp.png')} style = {{width: 30, height: 30}} />
     </View>
   );
 }
